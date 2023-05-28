@@ -1,0 +1,34 @@
+{
+  "doctype": "DocType",
+  "name": "Ethiopian Date Conversion",
+  "is_tree": 0,
+  "fields": [
+    {
+      "fieldname": "gregorian_date",
+      "fieldtype": "Date",
+      "label": "Gregorian Date",
+      "reqd": 1
+    },
+    {
+      "fieldname": "ethiopian_date",
+      "fieldtype": "Data",
+      "label": "Ethiopian Date",
+      "read_only": 1
+    }
+  ],
+  "permissions": [
+    {
+      "role": "System Manager",
+      "read": 1,
+      "write": 1,
+      "create": 1,
+      "delete": 1,
+      "submit": 1,
+      "cancel": 1,
+      "amend": 1,
+      "print": 1
+    }
+  ]
+}
+
+
